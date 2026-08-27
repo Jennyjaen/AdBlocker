@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">AdBlocker</string>
+    <string name="accessibility_service_description">전면 광고 화면을 분석하고 닫기·스킵 버튼 위치를 음성으로 안내합니다.</string>
+
+    <string name="onboarding_title">AdBlocker 설정</string>
+    <string name="onboarding_description">접근성 서비스를 켠 뒤, 다른 앱 위에서 접근성 버튼을 누르면 현재 화면을 분석합니다.</string>
+    <string name="onboarding_accessibility_status_label">접근성 서비스</string>
+    <string name="onboarding_accessibility_status_on">켜짐</string>
+    <string name="onboarding_accessibility_status_off">꺼짐</string>
+    <string name="onboarding_accessibility_hint">아래 버튼으로 설정 화면을 연 뒤 AdBlocker를 켜 주세요.</string>
+    <string name="onboarding_open_accessibility_settings">접근성 설정 열기</string>
+    <string name="onboarding_api_key_warning_title">Gemini API 키 없음</string>
+    <string name="onboarding_api_key_warning_body">화면 분석 API를 호출할 수 없습니다. 프로젝트 루트의 local.properties에 GEMINI_API_KEY= 를 추가한 뒤 다시 빌드하세요.</string>
+    <string name="onboarding_usage_hint">서비스를 켠 뒤에는 이 앱을 열지 않아도 됩니다. 접근성 버튼(제스처 내비: 보통 하단 두 손가락 스와이프)을 누르면 분석이 시작됩니다.</string>
+
+    <string name="tts_accessibility_button_ok">접근성 버튼이 동작합니다</string>
+
+    <string name="onboarding_verify_title">3단계: 접근성 버튼 동작 확인</string>
+    <string name="onboarding_verify_step_1">1. 홈 버튼으로 나가거나 다른 앱(예: 설정, 게임)을 엽니다.</string>
+    <string name="onboarding_verify_step_2">2. AdBlocker 앱은 닫아 둡니다. (포그라운드일 필요 없음)</string>
+    <string name="onboarding_verify_step_3">3. 접근성 버튼을 누릅니다. (제스처 내비: 보통 하단에서 두 손가락으로 위로 스와이프)</string>
+    <string name="onboarding_verify_success">성공: 「접근성 버튼이 동작합니다」 음성이 들립니다.</string>
+    <string name="onboarding_verify_logcat">음성이 안 들리면 Android Studio Logcat에서 태그 %1$s, 메시지 %2$s 를 확인하세요.</string>
 </resources>

@@ -13,3 +13,10 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Personal screenshot fixtures (keep folder structure only)
+testdata/ads/*
+testdata/not_ads/*
+!testdata/ads/.gitkeep
+!testdata/not_ads/.gitkeep
+testdata/labels.csv

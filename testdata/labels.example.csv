@@ -1,0 +1,7 @@
+filename,game,is_ad,close_button,skip_indicator,notes
+cookie_ad_01.png,cookie,true,top-right,not_found,전면 영상광고 X만 있음
+cookie_ad_02.png,cookie,true,not_found,top-right,스킵만 있고 X 아직 없음
+cookie_play_01.png,cookie,false,not_found,not_found,실제 플레이 HUD
+cookie_shop_01.png,cookie,false,not_found,not_found,인게임 상점 팝업
+puzzle_ad_01.png,puzzle,true,top-left,bottom-right,플레이어블 광고
+puzzle_play_01.png,puzzle,false,not_found,not_found,같은 게임 플레이
