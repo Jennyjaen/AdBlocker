@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AdBlockerTheme {
-                var refreshTrigger by mutableIntStateOf(0)
+                var refreshTrigger by remember { mutableIntStateOf(0) }
 
                 DisposableEffect(lifecycle) {
                     val observer = LifecycleEventObserver { _, event ->

@@ -21,4 +21,35 @@
     <string name="onboarding_verify_step_3">3. 접근성 버튼을 누릅니다. (제스처 내비: 보통 하단에서 두 손가락으로 위로 스와이프)</string>
     <string name="onboarding_verify_success">성공: 「접근성 버튼이 동작합니다」 음성이 들립니다.</string>
     <string name="onboarding_verify_logcat">음성이 안 들리면 Android Studio Logcat에서 태그 %1$s, 메시지 %2$s 를 확인하세요.</string>
+
+    <!-- #4. Screenshot — TTS strings (commented out; uncomment with step 4+) -->
+    <!--
+    <string name="tts_capture_ok">화면 캡처에 성공했습니다.</string>
+    <string name="tts_capture_failed">이 화면은 캡처할 수 없습니다.</string>
+    -->
+
+    <!-- #4.5 GameSession — TTS strings (commented out; uncomment with step 4.5+) -->
+    <!--
+    <string name="tts_ad_redirect_hint">브라우저나 스토어로 이동했을 수 있습니다. 뒤로가기를 눌러 게임으로 돌아가세요.</string>
+    <string name="tts_session_warmup_hint">플레이 화면에서 접근성 버튼을 한 번 더 눌러 주세요.</string>
+    -->
+
+    <!-- #7 run — pipeline TTS templates (commented out; uncomment with step 7+) -->
+    <!--
+    <string name="tts_analyzing">화면을 분석 중입니다.</string>
+    <string name="tts_not_ad">지금은 광고 화면이 아닙니다.</string>
+    <string name="tts_api_key_missing">API 키가 없어 분석할 수 없습니다.</string>
+    <string name="tts_network_error">네트워크를 확인해 주세요.</string>
+    <string name="tts_analysis_failed">분석에 실패했습니다. 다시 눌러 주세요.</string>
+    <string name="tts_ad_intro">전면 광고입니다.</string>
+    <string name="tts_label_close_button">닫기 버튼</string>
+    <string name="tts_label_skip">스킵</string>
+    <string name="tts_control_at">%1$s은 %2$s에 있습니다.</string>
+    <string name="tts_control_not_found">%1$s은 보이지 않습니다.</string>
+    <string name="tts_quadrant_top_left">왼쪽 위</string>
+    <string name="tts_quadrant_top_right">오른쪽 위</string>
+    <string name="tts_quadrant_bottom_left">왼쪽 아래</string>
+    <string name="tts_quadrant_bottom_right">오른쪽 아래</string>
+    <string name="tts_quadrant_unknown">알 수 없는 위치</string>
+    -->
 </resources>
