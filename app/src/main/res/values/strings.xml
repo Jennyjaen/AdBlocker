@@ -22,11 +22,9 @@
     <string name="onboarding_verify_success">성공: 「접근성 버튼이 동작합니다」 음성이 들립니다.</string>
     <string name="onboarding_verify_logcat">음성이 안 들리면 Android Studio Logcat에서 태그 %1$s, 메시지 %2$s 를 확인하세요.</string>
 
-    <!-- #4. Screenshot — TTS strings (commented out; uncomment with step 4+) -->
-    <!--
+    <!-- #4. Screenshot — TTS strings -->
     <string name="tts_capture_ok">화면 캡처에 성공했습니다.</string>
     <string name="tts_capture_failed">이 화면은 캡처할 수 없습니다.</string>
-    -->
 
     <!-- #4.5 GameSession — TTS strings (commented out; uncomment with step 4.5+) -->
     <!--

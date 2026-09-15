@@ -9,9 +9,9 @@ import android.util.Log
 import android.view.accessibility.AccessibilityEvent
 import java.util.Locale
 
-// #4. Screenshot — imports (commented out; uncomment with step 4+)
-// import android.graphics.Bitmap
-// import android.view.Display
+// #4. Screenshot — imports
+import android.graphics.Bitmap
+import android.view.Display
 
 // #7 run — imports (commented out; uncomment with step 7+)
 // import android.os.SystemClock
@@ -177,7 +177,7 @@ class AdBlockerAccessibilityService : AccessibilityService(), TextToSpeech.OnIni
         // analysisJob = serviceScope.launch { runPipeline() }
         // return
 
-        speak(getString(R.string.tts_accessibility_button_ok))
+        // speak(getString(R.string.tts_accessibility_button_ok)) // S0 — S1 활성화 시 주석
 
         // #5 NavBar — 단독 디버그 로그 (5단계 확인용; 7단계 활성화 시 다시 주석)
         // Log.i(TAG, "navBarVisible=${NavBarDetector.detectNavBarVisible(this)}")
@@ -193,11 +193,10 @@ class AdBlockerAccessibilityService : AccessibilityService(), TextToSpeech.OnIni
         // )
 
         // #4. Screenshot — 단독 디버그 캡처 (4단계 확인용; 7단계 활성화 시 다시 주석)
-        // captureScreenshotDebug()
+        captureScreenshotDebug()
     }
 
     // #4. Screenshot — 단독 디버그 캡처 함수 (4단계 확인용; 7단계 활성화 시 다시 주석)
-    /*
     private fun captureScreenshotDebug() {
         takeScreenshot(
             Display.DEFAULT_DISPLAY,
@@ -232,7 +231,6 @@ class AdBlockerAccessibilityService : AccessibilityService(), TextToSpeech.OnIni
             },
         )
     }
-    */
 
     // #7 run — full pipeline: session -> capture -> navbar -> classify -> locate -> TTS (commented out)
     /*

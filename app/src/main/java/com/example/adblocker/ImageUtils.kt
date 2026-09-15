@@ -1,7 +1,6 @@
 package com.example.adblocker
 
-// #4. Screenshot — ImageUtils (entire implementation commented out; uncomment to enable step 4)
-/*
+// #4. Screenshot — ImageUtils
 import android.graphics.Bitmap
 import android.util.Base64
 import java.io.ByteArrayOutputStream
@@ -63,4 +62,3 @@ object ImageUtils {
         return Bitmap.createScaledBitmap(bitmap, width, height, true)
     }
 }
-*/
